@@ -1,0 +1,140 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .hero-shape3 {
+        right: -10%;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .production-title h2 {
+        font-size: 20px;
+    }
+    .production-title.text-center a {
+        font-size: 20px;
+        
+    }
+    .social-icon a {
+        margin-left: 50px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .production-title h2 {
+        font-size: 15px;
+    }
+    .video-play iframe {
+        width: 100%;
+        margin-left: 0;
+    }
+    .production-bottom-title p {
+        margin-bottom: 4px;
+        font-size: 13px;
+    }
+    .social-icon a {
+        margin-left: 29px;
+    }
+    .music-bottom-text a {
+        font-size: 14px;
+    }
+    audio {
+        margin-left: -60px;
+    }
+    .hero-area {
+        padding-top: 50px;
+    }
+    
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .music-bottom {
+        margin-left: 0;
+    }
+    .music-img1 img {
+        width: 100%;
+    }
+    .hero-area.pt-90 {
+        height: 100vh;
+    }
+    .music-img img {
+        position: absolute;
+        height: 100vh;
+        left: 0;
+        width: 100%;
+        top: 80px;
+    }
+    .social-icon a {
+        font-size: 31px;
+        font-weight: 600;
+        color: #bfbcbc;
+        margin-left: 28px;
+    }
+    .music-play.text-center {
+        margin-top: -10%;
+        height: 200px;
+    }
+    audio {
+        margin-right: 0;
+        margin-top: -5px;
+    }
+    .music-bottom-text a {
+        display: inline-block;
+        z-index: 999;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .music-bottom-text a {
+        left: 0;
+        right: 0;
+        top: 75px;
+    }
+    .music-play.text-center {
+        margin-top: 0;
+        height: 140px;
+        padding: 20px 0;
+    }
+    .musice-top-text p {
+        font-size: 13px;
+    }
+    .musice-top-text h1 {
+        font-size: 20px;
+    }
+    .social-icon {
+        text-align: center;
+    }
+    .video-play iframe {
+        width: 100%;
+        margin-left: 0;
+    }
+    .contuct-2 input {
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+    .massege p {
+        margin-bottom: 0;
+    }
+    .production-bottom-title {
+        text-align: center;
+    }
+    .contuct-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hero-area {
+        padding-top: 30px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
